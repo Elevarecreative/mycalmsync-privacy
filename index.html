@@ -44,98 +44,244 @@
     <h1>Privacy Policy – MyCalmSync</h1>
     <p><strong>Effective Date:</strong> February 16, 2026</p>
 
-    <p>This Privacy Policy describes how MyCalmSync (“we,” “us,” or “our”) collects, uses, discloses, and safeguards information when you use the MyCalmSync mobile application (the “App”). MyCalmSync is independently owned and operated by its creator.</p>
+    <p>
+          This Privacy Policy describes how <strong>MyCalmSync</strong> (“we,”
+          “us,” or “our”) collects, uses, discloses, and safeguards information
+          when you use the MyCalmSync mobile application (the “App”).
+          MyCalmSync is independently owned and operated by its creator.
+        </p>
 
-    <p>By using the App, you agree to the collection and use of information in accordance with this Privacy Policy.</p>
+        <p>
+          By using the App, you agree to the collection and use of information
+          in accordance with this Privacy Policy.
+        </p>
 
-    <h2>1. Information We Collect</h2>
+        <div className="p-4 rounded-xl bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800">
+          <h4 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">
+            Health Data Consent
+          </h4>
+          <p className="text-sm">
+            <strong>By using the health and wellness tracking features in this App, you explicitly consent to the collection and processing of your health and wellness data</strong> as described in this Privacy Policy. This includes mood logs, sleep quality records, hydration tracking, screen time awareness, energy levels, and all related wellness metrics. You may withdraw this consent at any time by disabling tracking features or deleting your account.
+          </p>
+        </div>
 
-    <h3>1.1 Account Information</h3>
-    <p>When you create an account, we collect:</p>
-    <ul>
-      <li>Email address</li>
-      <li>Password (securely handled and stored by Supabase using industry-standard hashing)</li>
-    </ul>
-    <p>This information is required to provide account access and authentication.</p>
+        <div className="p-4 rounded-xl bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800">
+          <h4 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">
+            Medical Disclaimer
+          </h4>
+          <p className="text-sm">
+            <strong>The wellness insights, mood analysis, activity suggestions, and health recommendations provided by MyCalmSync are for informational and educational purposes only.</strong> They are not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition. Never disregard professional medical advice or delay in seeking it because of information provided by this App.
+          </p>
+        </div>
 
-    <h3>1.2 User-Generated Content</h3>
-    <p>We collect and store content you voluntarily create within the App, including:</p>
-    <ul>
-      <li>Journal entries</li>
-      <li>Community chat messages</li>
-      <li>Books or written works you publish within the App</li>
-    </ul>
-    <p>You control the content you create and choose to publish.</p>
+        {/* Section 1 */}
+        <div className="space-y-3">
+          <h3 className="font-semibold text-gray-900 dark:text-gray-100">
+            1. Information We Collect
+          </h3>
 
-    <h3>1.3 Technical Information</h3>
-    <p>We may collect limited technical information necessary for app functionality and security, such as:</p>
-    <ul>
-      <li>Device information</li>
-      <li>Log data</li>
-      <li>App performance data</li>
-    </ul>
-    <p>This data is used solely to maintain and improve the App.</p>
+          <p className="font-medium">1.1 Account Information</p>
+          <p>
+            When you create an account, we collect:
+          </p>
+          <ul className="list-disc list-inside space-y-1">
+            <li>Email address</li>
+            <li>Username</li>
+            <li>Password (securely hashed and stored by Supabase)</li>
+            <li>Profile information (bio, avatar selection)</li>
+            <li>Account creation date</li>
+          </ul>
+          <p>
+            This information is required to provide account access and
+            authentication. MyCalmSync is completely free to use - there are no subscriptions or premium tiers.
+          </p>
 
-    <h2>2. How We Use Information</h2>
-    <p>We use collected information to:</p>
-    <ul>
-      <li>Provide and maintain the App</li>
-      <li>Authenticate users via Supabase</li>
-      <li>Enable journaling and publishing features</li>
-      <li>Facilitate community interactions</li>
-      <li>Improve functionality and user experience</li>
-      <li>Ensure security and prevent misuse</li>
-    </ul>
-    <p>We do not sell or rent personal information to third parties.</p>
+          <p className="font-medium">1.2 Wellness & Mental Health Data</p>
+          <p>
+            We collect wellness data you voluntarily provide, including:
+          </p>
+          <ul className="list-disc list-inside space-y-1">
+            <li>Mood logs and emotional check-ins with timestamps</li>
+            <li>Mood followup responses and scale ratings</li>
+            <li>Mood analysis summaries and patterns</li>
+            <li>Breathing exercise sessions (duration, technique, completion)</li>
+            <li>Walking activity stats (duration, distance, steps)</li>
+            <li>Activity completion history and timestamps</li>
+            <li>Favorite activities and preferences</li>
+          </ul>
 
-    <h2>3. Data Storage & Security</h2>
-    <p>Your account information and user-generated content are securely stored using Supabase, a trusted backend service provider. Passwords are hashed and cannot be accessed by us. Reasonable administrative, technical, and physical safeguards are in place to protect your data. However, no method of electronic storage or transmission over the Internet is completely secure, so absolute security cannot be guaranteed.</p>
+          <p className="font-medium">1.3 Health & Wellness Tracking Data</p>
+          <p>
+            If you choose to track health and wellness data, we collect:
+          </p>
+          <ul className="list-disc list-inside space-y-1">
+            <li>Sleep quality records (duration, quality rating, notes, sleep quality scores)</li>
+            <li>Health metrics (steps, heart rate, calories, active minutes, weight)</li>
+            <li>Hydration logs (daily water intake, hydration goals, notes)</li>
+            <li>Screen time awareness logs (productive time, social media time, entertainment time)</li>
+            <li>Energy level logs (energy ratings 1-10, mood descriptors, activities, timestamps)</li>
+            <li>Sync timestamps and data source information</li>
+            <li>Historical trends and wellness insights</li>
+          </ul>
+          <p>
+            All health and wellness tracking features are completely optional.
+          </p>
 
-    <h2>4. Data Sharing and Disclosure</h2>
-    <p>We do not sell personal data. We may share information:</p>
-    <ul>
-      <li>With Supabase, solely to operate and maintain the App</li>
-      <li>If required by law, regulation, or legal process</li>
-      <li>To protect rights, safety, or prevent fraud</li>
-    </ul>
-    <p>All service providers are required to safeguard information appropriately.</p>
+          <p className="font-medium">1.4 User-Generated Content</p>
+          <p>
+            We store content you create within the App:
+          </p>
+          <ul className="list-disc list-inside space-y-1">
+            <li>Journal entries (text, timestamps, optional locks)</li>
+            <li>Gratitude journal entries</li>
+            <li>Reflection journal entries</li>
+            <li>Community chat messages and timestamps</li>
+            <li>Private/direct messages to other users</li>
+            <li>Message reactions and read receipts</li>
+            <li>Books or written works you create and publish</li>
+            <li>Book chapters and reading progress</li>
+            <li>Bookmarks and saved content</li>
+          </ul>
 
-    <h2>5. User-Generated Content & Community Features</h2>
-    <p>Content published in community spaces may be visible to other users. Users are responsible for the information they voluntarily share. We reserve the right to moderate or remove content that violates community standards.</p>
+          <p className="font-medium">1.5 Social & Community Data</p>
+          <p>
+            We collect data related to social features:
+          </p>
+          <ul className="list-disc list-inside space-y-1">
+            <li>Friend connections and friendship status</li>
+            <li>Chat room memberships</li>
+            <li>Message read receipts and typing indicators</li>
+            <li>User presence and online status</li>
+            <li>Community interactions and participation</li>
+          </ul>
 
-    <h2>6. Data Retention</h2>
-    <p>We retain personal information only as long as necessary to:</p>
-    <ul>
-      <li>Provide services</li>
-      <li>Comply with legal obligations</li>
-      <li>Resolve disputes</li>
-      <li>Enforce agreements</li>
-    </ul>
-    <p>Users may request deletion of their accounts at any time.</p>
+          <p className="font-medium">1.6 Gamification & Progress Data</p>
+          <p>
+            We track your progress and achievements:
+          </p>
+          <ul className="list-disc list-inside space-y-1">
+            <li>Coins earned through completed activities</li>
+            <li>Badges and achievements unlocked</li>
+            <li>Daily check-in streaks and consistency tracking</li>
+            <li>Activity completion counts and milestones</li>
+            <li>Progress towards wellness goals</li>
+          </ul>
 
-    <h2>7. Account Deletion & User Rights</h2>
-    <p>Users may request:</p>
-    <ul>
-      <li>Access to their personal data</li>
-      <li>Correction of inaccurate information</li>
-      <li>Deletion of their account and associated data</li>
-    </ul>
-    <p>To request account deletion, send your email and reason for deletion to: <a href="mailto:millicentkpaduwa@gmail.com">millicentkpaduwa@gmail.com</a>. Upon verified request, we will delete or anonymize your data unless retention is legally required.</p>
+          <p className="font-medium">1.7 App Usage & Activity Data</p>
+          <p>
+            We track how you use the app to improve your experience:
+          </p>
+          <ul className="list-disc list-inside space-y-1">
+            <li>Activity history (gratitude prompts, poems, reflections viewed)</li>
+            <li>Content preferences and favorites</li>
+            <li>Reading progress and book engagement</li>
+            <li>Daily activity rotation assignments</li>
+            <li>Notification preferences and settings</li>
+            <li>App usage patterns and feature engagement</li>
+            <li>Crisis resources accessed and viewed</li>
+          </ul>
 
-    <h2>8. Children’s Privacy</h2>
-    <p>The App is not intended for children under the age of 13. We do not knowingly collect personal information from children under 13. If we become aware that such data has been collected, we will delete it.</p>
+          <p className="font-medium">1.8 Technical Information</p>
+          <p>
+            We collect limited technical data for app functionality:
+          </p>
+          <ul className="list-disc list-inside space-y-1">
+            <li>Device information and platform type</li>
+            <li>Session timestamps and authentication tokens</li>
+            <li>Log data for debugging and security</li>
+            <li>App performance metrics</li>
+          </ul>
 
-    <h2>9. International Users</h2>
-    <p>If you access the App from outside your country of residence, you acknowledge that your information may be processed and stored in other jurisdictions where data protection laws may differ.</p>
+          <p className="font-medium">1.9 Community Moderation Data</p>
+          <p>
+            To maintain a safe community environment, we collect:
+          </p>
+          <ul className="list-disc list-inside space-y-1">
+            <li>Message reports and flagged content</li>
+            <li>Moderation actions and timestamps</li>
+            <li>User-submitted safety concerns</li>
+            <li>Content that violates community guidelines</li>
+          </ul>
+        </div>
 
-    <h2>10. Changes to This Privacy Policy</h2>
-    <p>We may update this Privacy Policy from time to time. Updates will be reflected by revising the “Effective Date.” Continued use of the App constitutes acceptance of the updated policy.</p>
+        {/* Section 2 */}
+        <div className="space-y-2">
+          <h3 className="font-semibold text-gray-900 dark:text-gray-100">
+            2. How We Use Information
+          </h3>
+          <p>We use collected information to:</p>
+          <ul className="list-disc list-inside space-y-1">
+            <li>Provide and maintain the App and its features</li>
+            <li>Authenticate users and secure accounts via Supabase</li>
+            <li>Enable journaling, wellness tracking, and mental health features</li>
+            <li>Track hydration, screen time, energy levels, and other wellness metrics</li>
+            <li>Facilitate community interactions and social connections</li>
+            <li>Provide personalized wellness recommendations and content</li>
+            <li>Track your progress, display statistics, and award achievements</li>
+            <li>Manage gamification features (coins, badges, streaks)</li>
+            <li>Sync and display health and sleep data you authorize</li>
+            <li>Send notifications and reminders based on your preferences</li>
+            <li>Analyze mood patterns and provide personalized insights</li>
+            <li>Rotate daily activities to provide variety</li>
+            <li>Improve functionality, user experience, and app features</li>
+            <li>Moderate community content and ensure user safety</li>
+            <li>Ensure security and prevent misuse or abuse</li>
+            <li>Provide crisis resources and emergency support when needed</li>
+          </ul>
+          <p className="font-medium">
+            We do not sell, rent, or share your personal information, wellness data, or health information with third parties for marketing purposes.
+          </p>
+        </div>
 
-    <h2>11. Contact Information</h2>
-    <p>If you have questions about this Privacy Policy, contact:</p>
-    <p><strong>MyCalmSync</strong><br>
-    <a href="mailto:millicentkpaduwa@gmail.com">millicentkpaduwa@gmail.com</a><br>
-    <a href="https://www.mycalmsync.com">https://www.mycalmsync.com</a></p>
+        {/* Section 3 */}
+        <div className="space-y-2">
+          <h3 className="font-semibold text-gray-900 dark:text-gray-100">
+            3. Data Storage & Security
+          </h3>
+          <p>
+            Your account information and user-generated content are securely
+            stored using Supabase, a trusted backend service provider.
+          </p>
+          <p>Passwords are hashed and cannot be accessed by us.</p>
+          <p>
+            Reasonable safeguards are in place to protect your data. However, no
+            method of electronic storage or transmission over the Internet is
+            completely secure.
+          </p>
+        </div>
+
+        {/* Section 4 */}
+        <div className="space-y-2">
+          <h3 className="font-semibold text-gray-900 dark:text-gray-100">
+            4. Data Sharing and Disclosure
+          </h3>
+          <p>We do not sell personal data. We may share information:</p>
+          <ul className="list-disc list-inside space-y-1">
+            <li>With Supabase, solely to operate and maintain the App</li>
+            <li>If required by law or legal process</li>
+            <li>To protect rights, safety, or prevent fraud</li>
+          </ul>
+        </div>
+
+        {/* Section 5 */}
+        <div className="space-y-2">
+          <h3 className="font-semibold text-gray-900 dark:text-gray-100">
+            5. User-Generated Content & Community Features
+          </h3>
+          <p>
+            Content published in community spaces may be visible to other users.
+            Users are responsible for the information they voluntarily share.
+            We reserve the right to moderate or remove content that violates
+            community standards.
+          </p>
+          <div className="p-3 mt-3 rounded-lg bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800">
+            <p className="text-sm font-medium text-amber-900 dark:text-amber-100">
+              Community Content Responsibility
+            </p>
+            <p className="text-sm mt-1">
+              <strong>Please avoid sharing sensitive personal health information in community spaces.</strong> While we provide privacy controls, any information you post in public chat rooms or community features may be viewed by other users. Exercise caution and good judgment when sharing in community areas.
+            </p>
   </div>
 </body>
 </html>
+
